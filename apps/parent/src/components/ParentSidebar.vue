@@ -1,6 +1,6 @@
 <template>
   <aside class="sidebar" id="parent-sidebar">
-    <div class="default-sidebar">Sidebar</div>
+    <div class="default-sidebar">Sidebar (parent)</div>
   </aside>
 </template>
 
@@ -13,7 +13,6 @@
   height: 100%;
   padding: 1rem;
   display: flex;
-  justify-content: center;
   border-right: 1px solid #ccc;
 }
 </style>

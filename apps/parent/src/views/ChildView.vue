@@ -5,6 +5,6 @@ import MfeLoader from "../components/MfeLoader.vue";
 
 <template>
   <DefaultLayout>
-    <MfeLoader url="http://localhost:8081/child" />
+    <MfeLoader url="http://localhost:8081/vue-child" />
   </DefaultLayout>
 </template>

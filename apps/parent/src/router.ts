@@ -5,6 +5,10 @@ export const router = createRouter({
   routes: [
     {
       path: "/",
+      component: () => import("./views/IndexView.vue"),
+    },
+    {
+      path: "/home",
       component: () => import("./views/HomeView.vue"),
     },
     {
@@ -12,11 +16,7 @@ export const router = createRouter({
       component: () => import("./views/AboutView.vue"),
     },
     {
-      path: "/settings",
-      component: () => import("./views/SettingsView.vue"),
-    },
-    {
-      path: "/child",
+      path: "/vue-child",
       component: () => import("./views/ChildView.vue"),
     },
   ],

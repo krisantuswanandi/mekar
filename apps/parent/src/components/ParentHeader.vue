@@ -1,10 +1,10 @@
 <template>
   <header class="header">
     <span>Micro Frontend Example</span>
-    <router-link to="/child">Child</router-link>
+    <router-link to="/home">Home</router-link>
+    <router-link to="/vue-child">Vue</router-link>
     <router-link to="/about">About</router-link>
-    <router-link to="/settings">Settings</router-link>
-    <router-link to="/">Back to Home</router-link>
+    <router-link to="/">Close App</router-link>
   </header>
 </template>
 

@@ -4,6 +4,7 @@ import { isMfe } from "./mfe";
 
 <template>
   <nav class="nav" :class="isMfe() ? 'mfe-enabled' : 'mfe-disabled'">
+    <div class="title">Sidebar (Vue)</div>
     <router-link to="/">Home</router-link>
     <router-link to="/about">About</router-link>
   </nav>
@@ -26,5 +27,9 @@ import { isMfe } from "./mfe";
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid #ccc;
+}
+
+.nav.mfe-disabled .title {
+  display: none;
 }
 </style>

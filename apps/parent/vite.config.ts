@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
     base: "/",
     server: {
       port: parseInt(env.PORT),
-      proxy: mfeProxy("/child", 8081),
+      proxy: mfeProxy("/vue-child", 8081),
     },
     preview: { port: parseInt(env.PORT) },
     resolve: {

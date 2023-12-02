@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [vue()],
-    base: "http://localhost:8081/child",
+    base: "http://localhost:8081/vue-child",
     server: { port: parseInt(env.PORT) },
     preview: { port: parseInt(env.PORT) },
     resolve: {
